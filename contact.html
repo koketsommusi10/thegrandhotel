@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welcome to The Grand Hotel, the best hotel money has offer in Boston Massachussets">
+  <meta name="keywords" content="The Grand Hotel, hotel, Boston, Boston Massachussets">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" media="screen and (max-width:786px)" href="css/mobile.css">
+  <script src="https://kit.fontawesome.com/c62e519c8b.js" crossorigin="anonymous"></script>
+  <title>The Grand Hotel | Welcome</title>
+</head>
+<body>
+  <header>
+      <nav id="navbar">
+        <div class="container">
+        <h1 class="logo">TGH</h1>
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      </nav>
+  </header>
+  <section id="contact-form" class="py-3">
+    <div class="container">
+      <h1 class="l-heading"><span class="text-primary">Contact</span>Us</h1>
+    
+    <form action="process.php">
+      <div class="form-group">
+        <label for="email">Name</label>
+        <input type="text" name="name" id="name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+       <textarea name="message" id="message"></textarea>
+       
+      </div>
+      <button type="submit" class="btn btn-submit">Submit</button>
+    </form>
+  </div>
+  </section>
+  <section id="features">
+    <div class="box bg-tetiary">
+      <i class="fa-solid fa-hotel fa-3x"></i>
+      <h3>Great Location</h3>
+      <p>50 Main st, Boston MA</p>
+    </div>
+    <div class="box bg-secondary">
+      <i class="fa-solid fa-phone fa-3x"></i>
+      <h3>Phone Number</h3>
+      <p>(617) 555-5555</p>
+    </div>
+    <div class="box bg-tetiary">
+      <i class="fa-solid fa-envelope fa-3x"></i>
+      <h3>Email Address</h3>
+      <p>frontdesk@thegrandhotel.com</p>
+    </div>
+  </section>
+
+  <div class="clr"></div>
+
+  <footer id="main-footer" class="bg-primary">
+    <p>The Grand Hotel &copy; 2023, All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
